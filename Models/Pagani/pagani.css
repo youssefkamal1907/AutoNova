@@ -1,0 +1,105 @@
+:root
+{
+    --rad: 60px;
+}
+
+body 
+{
+    background-color: hsl(0, 0%, 0%);
+    color: rgba(255, 255, 255, 0.938);
+    margin: 0%;
+}
+
+div
+{
+    margin: 0%;
+    padding: 0%;
+    display: inline-block;
+}
+
+p, li
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+    line-height: 1.5;
+    font-size: 19px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+ul
+{
+    font-size: 15px;
+}
+
+hr
+{
+    margin: 0px;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0%;
+}
+
+#first-image
+{
+    background: url("Pagani_Zonda_PS_Front[1].jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: var(--rad);
+}
+
+#second-image
+{
+    background: url("Utopia.jpeg");
+    size: cover;
+    background-repeat: no-repeat;
+    border-radius: var(--rad);
+}
+
+#third-image
+{
+    background-image: url("Huayra.jpeg");
+    background-repeat: no-repeat;
+    border-radius: var(--rad);
+}
+
+#fourth-image
+{
+    background: url("pagani-huayra-roadster-bc-in-csr-racing-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: var(--rad);
+}
+
+#fifth-image
+{    
+    background: url("Pagani_Utopia_Auto_Zuerich_2023_1X7A1185.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: var(--rad);
+}
+
+#finale1
+{
+    font-family: monospace;
+}
+
+#finale2
+{
+    font-family: "Palace Script MT";
+}
+
+#finale3
+{
+    font-family: monospace;
+}
+
+.large-finale
+{
+    font-size: 50px;
+    text-align: center
+}

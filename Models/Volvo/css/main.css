@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100vh;
+    font-size: 18px;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* End Global Rules */
+/* start header */
+header {
+    height: 650px;
+    background-image: url("volvo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+header * {color: #fff;}
+header .container {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+}
+header h1 {
+    letter-spacing: 10px;
+    font-size: 8rem;
+    font-weight: 500;
+    font-family: "Lato", sans-serif;
+}
+header p {
+    font-size: 1.25rem;
+    margin: 10px 0;
+    font-family: "Comfortaa", sans-serif;
+}
+/* End Header */
+/* Start Section */
+section {
+    background-color: #1a1a1a;
+}
+section * {color: #fff;}
+section .container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+section h2 {
+    font-family: Lato, sans-serif !important;
+    padding-bottom: 21px;
+    font-size: 34px;
+}
+section p {
+    line-height: 1.7;
+    font-size: 14px;
+}
+/* End Section */
+/* Start Article */
+article > * {color: #000;}
+article {background-color: #f2f2f2;}
+article .container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+article img {
+    height: 500px;
+}
+
+article .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: 500px;
+}
+article span {
+    font-size: 20px;
+    font-family: Comfortaa, cursive;
+}
+article p {
+    font-size: 16px;
+    color: #111;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+}
+
+article h3 {
+    color: #111;
+    font-weight: 700;
+    margin: 28px 0 0;
+    font-family: "Lato", sans-serif;
+    font-size: 45px;
+}
+article button {
+    color: #000;
+    background: transparent;
+    border: #000 2px solid;
+    padding: 13px 30px;
+    border-radius: 17px;
+    font-size: 16px;
+}
+/* End Article */
+/* Start Section2 */
+.section2 {
+    display: flex;
+    min-height: 434px;
+}
+.photo {
+    width: 2000px;
+    background-size: cover;
+}
+.one {
+    background: url("photo1.jpeg");
+    background-position: 50% 50%;
+
+}
+.two {
+    background: url("photo2.jpeg");
+    background-position: 64.09% 50%;
+}
+.three {
+    background-image: linear-gradient(0deg, rgba(133, 162, 166, 0.9), rgba(133, 162, 166, 0.9)), url("photo3.jpeg");
+    background-position: 50% 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+}
+.three > * {
+    padding: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+.three h1 {font-family: Lato, sans-serif !important;}
+.three p {
+    line-height: 1.6;
+    font-size: 16px;
+}
+.three button {
+    color: #fff;
+    background: transparent;
+    border: #fff 2px solid;
+    padding: 13px 30px;
+    border-radius: 25px;
+    font-size: 16px;
+}
+
+.four {
+    background: url("photo4.jpeg");
+    background-position: 20.5% 50%;
+}
+/* End Section2 */
+/* Start Section3 */
+.section3 {background-color: #1a1a1a;}
+.section3 .container *  {color: #fff;}
+.section3 .container {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.section3 h3 {
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 300;
+    margin-bottom: 20px;
+    font-family: Comfortaa, cursive !important
+}
+.section3 img {height: 720px;}
+i {font-size: 60px;}
+
+.section3 .left,
+.section3 .right {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.section3 .left {text-align: left;}
+.section3 .right {text-align: right;}
+
+.section3 button {
+    color: #fff;
+    background: transparent;
+    border: #fff 2px solid;
+    padding: 13px 30px;
+    border-radius: 17px;
+    font-size: 16px;
+}
+/* End Section3 */
+/* Start Footer */
+footer {
+    background-color: #85a2a6;
+    height: 400px;
+}
+footer .content {
+    display: flex;
+    justify-content: space-around;
+}
+footer .content .contact * {color: #fff;}
+footer h1 {color: #fff;padding: 30px;padding-top: 50px;}
+footer h3 {font-size: 20px;margin-bottom: 10px;}
+footer p {font-size: 16px;}
+footer span {display: block;font-size: 15px;}

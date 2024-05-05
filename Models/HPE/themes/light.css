@@ -1,0 +1,26 @@
+:root
+{   
+    --back-color: white;
+    --text-color: black;   
+}
+
+body
+{
+    background-color: var(--back-color);
+    color: var(--text-color)
+}
+
+hr
+{
+    color: black;
+}
+
+img
+{
+    border-color: black;
+}
+
+video
+{
+    border-color: black;
+}

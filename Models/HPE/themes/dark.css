@@ -1,0 +1,27 @@
+:root
+{
+    --back-color: rgba(23, 34, 65, 0.789);
+    --text-color: hsla(0, 0%, 100%, 0.850);
+}
+
+body
+{
+    background-color: var(--back-color);
+    color: var(--text-color)
+}
+
+textarea
+{
+    background-color: var(--back-color);
+    color: var(--text-color);
+}
+
+img
+{
+    border-color: var(--text-color);
+}
+
+video
+{
+    border-color: var(--text-color);
+}

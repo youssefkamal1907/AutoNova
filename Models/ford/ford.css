@@ -1,0 +1,78 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    background-color: #ffffff;
+    padding: 20px 0;
+}
+
+.logo {
+    color: #fff;
+    font-size: 24px;
+}
+
+.nav {
+    float: right;
+}
+
+.nav ul {
+    list-style: none;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav ul li a {
+    color: #514caf;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background-image: url('ford-hero.jpg');
+    background-size: cover;
+    color: #514caf;
+    text-align: center;
+    padding: 100px 0;
+}
+#more {display: none;}
+.h1 {
+
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.h2 {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.h3 {
+    font-family: Fantasy, Copperplate;
+    background-color: #f2f2f2;
+    color: #000000;
+}
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
