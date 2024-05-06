@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toyota Website</title>
+    <link rel="stylesheet" href="toyota css.css">
+</head>
+<body>
+    <header>
+        <h1>Dark Mode </h1>
+        <button id="darkModeToggle">Toggle Dark Mode</button>
+        <h1><img src="toyota-dark-desktop-logo.png" alt="logo"></h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#models">Models</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <div class="container">
+            <h2>Explore the World of Toyota</h2><img src="istockphoto-1415981550-612x612.jpg" alt="opening photo"class="image">
+            <div class="text"><p>Discover our latest models and innovations.These compact and subcompact cars are ideal for everyday commuting and travel. They offer comfortable interiors, the latest media apps, and impressive EPA-estimated gas mileage ratings.*</p> 
+                
+                </div>
+            <button onclick="scrollToSection('model')">View Models</button>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Toyota</h2>
+            <p>Toyota is a Japanese multinational automaker that strives to be a good corporate citizen and contribute to the creation of an affluent society through its business operations. The company’s Corporate Principles serve as the foundation for its initiatives, values that enable its execution, and its mindset.
+
+                Toyota’s origins date back to the Japanese weaving industry, where Sakichi Toyoda invented the world’s first automatic loom and established the Toyoda Spinning and Weaving Company in 1918. This invention, which reduced defects and increased yields, was a crucial principle in the development of the Toyota Production System, which remains a core part of the company’s operations today.</p>
+        </div>
+    </section>
+
+    <section id="models">
+        <div class="container">
+            <h2>Our Models</h2>
+            <div class="model">
+                <h3>Toyota Corolla</h3>
+               <img src="2024-toyota-corolla-sedan-nightshade-102-64591f781c16b.jpg" alt="corolla"class="image">
+                <p>The Toyota Corolla isn't here to wow or excite. Instead, it offers a safe predictable ride no matter how far the trip is. Performance isn't at the forefront of the Corolla's intentions (except for the GR Corolla, reviewed separately), and its most powerful engine packs a stable of 169—lethargic—horses. When compared to the Honda Civic or Mazda 3, the Corolla feels much like a tortoise between two hares. The Corolla is available as either a four-door sedan or five-door hatchback. The former is even available with an incredibly fuel-efficient hybrid powertrain.</p>
+                <h5>Engine, Transmission, and Performance</h5>
+                <p>The Corolla uses a 169-hp 2.0-liter four-cylinder that sends power to the front wheels through a continuously variable automatic transmission (CVT). While all hatchbacks share that same powertrain, the sedan also offers a hybrid powertrain. Our tests of the Corolla SE hatchback and the Corolla XSE sedan proved that even the strongest engine doesn't deliver adequate acceleration. The Toyota twins were quite prudent around town and steady on the highway, however. Unfortunately, hard acceleration produced coarse engine sounds that diminished their refinement. The all-wheel drive hybrid model we tested hit 60 mph in a rather leisurely 9.0 seconds, while the last hatchback model we had in for testing did it in 8.3 seconds. Both the Corolla sedan and the hatchback have a pleasant ride quality that adequately isolates all but the worst bumps. Their controlled body motions also provide better agility than previous iterations. The Corolla SE and XSE further separate themselves with a stiffer sport-tuned suspension and the latter's larger 18-inch wheels (everything else rides on either 15- or 16-inch rims). Still, compared with athletic and engaging rivals, such as the Mazda 3 and Honda Civic, the Corolla's progressive steering is satisfactory but not exemplary. While neither Corolla body style had impressive results in our 70-mph-to-zero braking test—requiring between 174 and 183 feet—their brake pedals were dependable and responded naturally to inputs.
+
+                </p>
+                <button onclick="showDetails('corolla')">View Price Details at the end of the page</button>
+            </div>
+            <div class="model">
+                <h3>Toyota Camry</h3>
+                <img src="image-91.webp" alt="camry"class="image">
+                <p>The new Toyota Camry is a hybrid SUV. Which can cover more than 500 miles on a full tank (14.4 gallons), and it is also important to note that the range of the next new Toyota Camry SUV will vary based on driving problems, engine problems, and weather problems.
+
+                    However, the new Toyota Camry is a very powerful SUV in terms of range and speed. Which can accelerate from 0 to 60 mph in just 5.6 seconds and can easily run at a top speed of 130 mph.</p>
+                    <h5> Engine, & Performance</h5>
+                    <p>Let us tell you that Toyota Motors is going to introduce the next new Toyota Camry in a total of 9 trims, and Five trims come with hybrid powertrains while the other trims only come with gasoline-powered powertrains.
+
+                        The non-hybrid trims of the Toyota Camry engine – LE, SE, SE Nightshade, XLE and XSE come with the same powertrain. And it’s the same 2.5-litre four-cylinder engine in all non-hybrid Toyota Camry trims. Which generates 203 hp and 184 lb-ft of torque. And all the power is sent to the front-wheel drive with the help of an eight-speed automatic transmission. This means that all non-hybrid trims will come with standard front-wheel drive (FWD) drivetrains. While one of the trims will be coming with all-wheel drive (AWD) drivetrain.
+                        
+                        Additionally, Toyota offers some hybrid trims of the Toyota Camry with a 3.5-litre V-6 engine capable of producing 301 hp of power and 267 lb-ft of torque. And all hybrid trims will come with an all-wheel drive (AWD) drivetrain.</p>
+                <button onclick="showDetails('camry')">View Price Details at the end of the page </button>
+            </div>
+            <div id="details"></div>
+        </div>
+    </section>
+
+     <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Toyota. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="toyota js.js"></script>
+</body>
+</html>
