@@ -1,6 +1,6 @@
 :root
 {
-    --rad: 10vh;
+    --rad: 10%;
 }
 
 body 
@@ -22,7 +22,7 @@ p, li
     font-family: Arial, Helvetica, sans-serif;
     margin: 1vh;
     line-height: 1.5;
-    font-size: 2vh;
+    font-size: 1.5vh;
      margin-left: 3vh;
     margin-right: 3vh;
 }
