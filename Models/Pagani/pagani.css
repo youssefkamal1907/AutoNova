@@ -1,6 +1,6 @@
 :root
 {
-    --rad: 60px;
+    --rad: 10vh;
 }
 
 body 
@@ -20,16 +20,11 @@ div
 p, li
 {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 5px;
+    margin: 1vh;
     line-height: 1.5;
-    font-size: 19px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-ul
-{
-    font-size: 15px;
+    font-size: 2vh;
+     margin-left: 3vh;
+    margin-right: 3vh;
 }
 
 hr
@@ -42,6 +37,7 @@ h1, h2, h3, h4, h5, h6
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     margin: 0%;
+    font-size: 3vh;
 }
 
 #first-image
@@ -100,6 +96,6 @@ h1, h2, h3, h4, h5, h6
 
 .large-finale
 {
-    font-size: 50px;
+    font-size: 6.4vh;
     text-align: center
 }
