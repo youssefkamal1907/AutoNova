@@ -208,3 +208,49 @@
   .cover p {
   color: #ffffff;
 }
+
+@media only screen and (max-width: 768px) {
+  nav .wrapper {
+    height: auto; 
+    line-height: normal; 
+    padding: 10px 0; 
+  }
+
+  .wrapper .logo {
+    font-size: 28px; 
+  }
+
+  .nav-links li a {
+    font-size: 18px; 
+    margin: 0 10px; 
+  }
+
+  .dropdown-content {
+    min-width: 100%; 
+  }
+
+  .dropdown-content .car {
+    width: 100%; 
+  }
+
+  .content {
+    font-size: 40px; 
+    bottom: 20%; 
+    left: 3%; 
+  }
+
+  .btn {
+    right: 3%; 
+    bottom: 20%; 
+    font-size: 20px; 
+    padding: 10px 20px; 
+  }
+
+  .contact-content h1 {
+    font-size: 40px; 
+  }
+
+  .cover {
+    padding: 10px;
+  }
+}
